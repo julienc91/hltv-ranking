@@ -17,12 +17,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Execute script
-        run: python hltv_ranking.py ranking.json
+        run: echo "RANKING_DATE=$(python hltv_ranking.py ranking.json)" >> $GITHUB_ENV
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ranking.json
           asset_name: ranking.json
-          tag: ${{ github.ref }}
+          tag: ${{ env.RANKING_DATE }}
           overwrite: true
+          body: "HLTV World Ranking for ${{ env.RANKING_DATE }}"
