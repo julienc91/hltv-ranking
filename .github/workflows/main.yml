@@ -1,6 +1,8 @@
 name: CI
 on:
   push:
+    branches:
+      - main
   schedule:
     - cron: '0 20 * * MON'
 
@@ -18,12 +20,13 @@ jobs:
         run: pip install -r requirements.txt
       - name: Execute script
         run: echo "RANKING_DATE=$(python hltv_ranking.py ranking.json)" >> $GITHUB_ENV
-      - name: Upload binaries to release
-        uses: svenstaro/upload-release-action@v2
+      - name: Rename file before export
+        run: mv ranking.json ${{ env.RANKING_DATE }}.json
+      - name: Add output to rankings branch
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ranking.json
-          asset_name: ranking.json
-          tag: ${{ env.RANKING_DATE }}
-          overwrite: true
-          body: "HLTV World Ranking for ${{ env.RANKING_DATE }}"
+          commit_message: HLTV World Ranking ${{ env.RANKING_DATE }}
+          branch: rankings
+          file_pattern: ${{ env.RANKING_DATE }}.json
+          disable_globbing: true
+
