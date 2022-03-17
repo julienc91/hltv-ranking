@@ -1,0 +1,98 @@
+{
+    "version": "1.0",
+    "date": "2022-03-14",
+    "source": "hltv.org",
+    "type": "world",
+    "teams": [
+        {
+            "name": "Natus Vincere"
+        },
+        {
+            "name": "Gambit"
+        },
+        {
+            "name": "FaZe"
+        },
+        {
+            "name": "G2"
+        },
+        {
+            "name": "Heroic"
+        },
+        {
+            "name": "Virtus.pro"
+        },
+        {
+            "name": "NIP"
+        },
+        {
+            "name": "Vitality"
+        },
+        {
+            "name": "Entropiq"
+        },
+        {
+            "name": "Astralis"
+        },
+        {
+            "name": "OG"
+        },
+        {
+            "name": "MOUZ"
+        },
+        {
+            "name": "fnatic"
+        },
+        {
+            "name": "FURIA"
+        },
+        {
+            "name": "ENCE"
+        },
+        {
+            "name": "BIG"
+        },
+        {
+            "name": "Copenhagen Flames"
+        },
+        {
+            "name": "SKADE"
+        },
+        {
+            "name": "forZe"
+        },
+        {
+            "name": "K23"
+        },
+        {
+            "name": "HEET"
+        },
+        {
+            "name": "ECSTATIC"
+        },
+        {
+            "name": "GODSENT"
+        },
+        {
+            "name": "Endpoint"
+        },
+        {
+            "name": "Eternal Fire"
+        },
+        {
+            "name": "Wisla Krakow"
+        },
+        {
+            "name": "GamerLegion"
+        },
+        {
+            "name": "Apeks"
+        },
+        {
+            "name": "Dignitas"
+        },
+        {
+            "name": "Sprout"
+        }
+    ]
+}
