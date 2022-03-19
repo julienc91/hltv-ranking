@@ -1,7 +1,8 @@
 import json
+import locale
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 from typing import Callable, TypedDict, TypeVar
 
 import requests
@@ -56,9 +57,18 @@ class HLTVRanking:
     BASE_URL = "https://www.hltv.org"
     LATEST_RANKING_PATH = "/ranking/teams/"
 
-    def _get_ranking_html_content(self) -> BeautifulSoup:
-        response = requests.get(self.BASE_URL + self.LATEST_RANKING_PATH)
-        assert response.status_code == 200
+    def _get_ranking_url(self, ranking_at: date | None) -> str:
+        url = self.BASE_URL + self.LATEST_RANKING_PATH
+        if ranking_at is None:
+            return url
+
+        ranking_date = ranking_at - timedelta(days=date.weekday(ranking_at))
+        return f"{url}{ranking_date.year}/{ranking_date.strftime('%B').lower()}/{ranking_date.day}"
+
+    def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
+        ranking_url = self._get_ranking_url(ranking_at)
+        response = requests.get(ranking_url)
+        assert response.status_code == 200, ranking_url
         return BeautifulSoup(response.text, features="html.parser")
 
     def _get_teams(self, html_content: BeautifulSoup) -> list[Team]:
@@ -147,14 +157,14 @@ class HLTVRanking:
             template_path = template_path.replace(key, value)
         return template_path
 
-    def export_to_dict(self) -> Ranking:
-        html_content = self._get_ranking_html_content()
+    def export_to_dict(self, ranking_at: date | None = None) -> Ranking:
+        html_content = self._get_ranking_html_content(ranking_at)
         ranking_date = self._get_ranking_date(html_content)
         teams = self._get_teams(html_content)
         return self._format_export(ranking_date, teams)
 
-    def export_to_file(self, template_path: str) -> str:
-        ranking = self.export_to_dict()
+    def export_to_file(self, template_path: str, ranking_at: date | None = None) -> str:
+        ranking = self.export_to_dict(ranking_at)
         path = self.format_output_path(template_path, ranking)
         data = json.dumps(ranking, indent=4, ensure_ascii=False)
         with open(path, "w") as f:
@@ -162,12 +172,26 @@ class HLTVRanking:
         return path
 
 
+def print_usage():
+    print(f"Usage {sys.argv[0]} <output_path> [<ranking_at>]")
+
+
 if __name__ == "__main__":
     try:
         output_path = sys.argv[1]
     except IndexError:
-        print(f"Usage {sys.argv[0]} <output_path>")
+        print_usage()
         sys.exit(1)
 
+    ranked_at = None
+    try:
+        ranked_at = parse(sys.argv[2]).date()
+    except IndexError:
+        pass
+    except ValueError:
+        print_usage()
+        sys.exit(1)
+
+    locale.setlocale(locale.LC_TIME, "en_US.UTF-8")
     exporter = HLTVRanking()
-    print(exporter.export_to_file(output_path))
+    print(exporter.export_to_file(output_path, ranked_at))
