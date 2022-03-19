@@ -56,12 +56,12 @@ class HLTVRanking:
     BASE_URL = "https://www.hltv.org"
     LATEST_RANKING_PATH = "/ranking/teams/"
 
-    def get_ranking_html_content(self) -> BeautifulSoup:
+    def _get_ranking_html_content(self) -> BeautifulSoup:
         response = requests.get(self.BASE_URL + self.LATEST_RANKING_PATH)
         assert response.status_code == 200
         return BeautifulSoup(response.text, features="html.parser")
 
-    def get_teams(self, html_content: BeautifulSoup) -> list[Team]:
+    def _get_teams(self, html_content: BeautifulSoup) -> list[Team]:
         teams: list[Team] = []
         for i, div in enumerate(html_content.select(".ranking .ranked-team"), start=1):
             team: Team = {
@@ -80,7 +80,7 @@ class HLTVRanking:
                 "logo_url": _extract_attribute(
                     div, ".team-logo img", getter=lambda tag: str(tag["src"])
                 ),
-                "players": self.get_players(div),
+                "players": self._get_players(div),
                 "url": _extract_attribute(
                     div,
                     ".lineup-con .more a.moreLink:not(.details)",
@@ -91,7 +91,7 @@ class HLTVRanking:
             teams.append(team)
         return teams
 
-    def get_players(self, team_div: Tag) -> list[Player]:
+    def _get_players(self, team_div: Tag) -> list[Player]:
         players: list[Player] = []
         for div in team_div.select(".lineup .player-holder"):
             name: str = _extract_attribute(div, ".nick")
@@ -123,13 +123,13 @@ class HLTVRanking:
         players.sort(key=lambda p: p["name"].lower())
         return players
 
-    def get_ranking_date(self, html_content: BeautifulSoup) -> date:
+    def _get_ranking_date(self, html_content: BeautifulSoup) -> date:
         date_text = html_content.select_one(".regional-ranking-header").text.strip()
         prefix = "CS:GO World ranking on "
         date_text = date_text[len(prefix) :]
         return parse(date_text).date()
 
-    def format_export(self, ranking_date: date, teams: list[Team]) -> Ranking:
+    def _format_export(self, ranking_date: date, teams: list[Team]) -> Ranking:
         return {
             "version": VERSION,
             "date": ranking_date.isoformat(),
@@ -138,11 +138,28 @@ class HLTVRanking:
             "teams": teams,
         }
 
-    def export(self) -> Ranking:
-        html_content = self.get_ranking_html_content()
-        ranking_date = self.get_ranking_date(html_content)
-        teams = self.get_teams(html_content)
-        return self.format_export(ranking_date, teams)
+    @staticmethod
+    def format_output_path(template_path: str, ranking: Ranking) -> str:
+        mapping = {
+            "{{ranking_date}}": ranking["date"],
+        }
+        for key, value in mapping.items():
+            template_path = template_path.replace(key, value)
+        return template_path
+
+    def export_to_dict(self) -> Ranking:
+        html_content = self._get_ranking_html_content()
+        ranking_date = self._get_ranking_date(html_content)
+        teams = self._get_teams(html_content)
+        return self._format_export(ranking_date, teams)
+
+    def export_to_file(self, template_path: str) -> str:
+        ranking = self.export_to_dict()
+        path = self.format_output_path(template_path, ranking)
+        data = json.dumps(ranking, indent=4, ensure_ascii=False)
+        with open(path, "w") as f:
+            f.write(data)
+        return path
 
 
 if __name__ == "__main__":
@@ -153,7 +170,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     exporter = HLTVRanking()
-    data = exporter.export()
-    with open(output_path, "w") as f:
-        f.write(json.dumps(data, indent=4, ensure_ascii=False))
-    print(data["date"])
+    print(exporter.export_to_file(output_path))

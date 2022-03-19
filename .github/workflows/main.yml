@@ -25,12 +25,14 @@ jobs:
           git pull
           git checkout origin/main hltv_ranking.py
           git restore --staged hltv_ranking.py
-          rm latest.json
       - name: Execute script
-        run: echo "RANKING_DATE=$(python hltv_ranking.py latest.json)" >> $GITHUB_ENV
-      - name: Rename file
         run: |
-          cp latest.json ${{ env.RANKING_DATE }}.json
+          OUTPUT_FILE=$(python hltv_ranking.py '{{ranking_date}}.json')
+          echo "RANKING_DATE=$(basename ${OUTPUT_FILE} .json)" >> $GITHUB_ENV
+      - name: Create latest.json
+        run: |
+          rm latest.json
+          cp ${{ env.RANKING_DATE }}.json latest.json
       - name: Add output to rankings branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -38,4 +40,3 @@ jobs:
           branch: rankings
           file_pattern: ${{ env.RANKING_DATE }}.json latest.json
           disable_globbing: true
-
