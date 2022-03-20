@@ -1,0 +1,1351 @@
+{
+    "version": "1.0",
+    "date": "2021-12-27",
+    "source": "hltv.org",
+    "type": "world",
+    "teams": [
+        {
+            "rank": 1,
+            "name": "Natus Vincere",
+            "points": 1000,
+            "change": 0,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c",
+            "players": [
+                {
+                    "name": "b1t",
+                    "full_name": "Valeriy Vakhovskiy",
+                    "country_code": "UA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/zSXcPbU8AgttIRXQdz94RC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C463%2C463&w=200&s=352a8a36f40040c30e9065bd4451d9fa",
+                    "url": "https://www.hltv.org/player/18987/b1t"
+                },
+                {
+                    "name": "Boombl4",
+                    "full_name": "Kirill Mikhailov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/mIeLhY9hNPOhhDzAIs-mXf.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C16%2C436%2C436&w=200&s=7ae39bdd94640ed0db98624d3544a124",
+                    "url": "https://www.hltv.org/player/11840/boombl4"
+                },
+                {
+                    "name": "electroNic",
+                    "full_name": "Denis Sharipov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/_zRrFpLvv9aPaLnNPEauoy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C443%2C443&w=200&s=1b020ff2dddcba70ee3445866930a0c7",
+                    "url": "https://www.hltv.org/player/8918/electronic"
+                },
+                {
+                    "name": "Perfecto",
+                    "full_name": "Ilya Zalutskiy",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/w2Qn-LCD9p7aVPVtKHvZdU.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C467%2C467&w=200&s=52617357bd153813d913ef1fb1b8e8d5",
+                    "url": "https://www.hltv.org/player/16947/perfecto"
+                },
+                {
+                    "name": "s1mple",
+                    "full_name": "Aleksandr Kostyliev",
+                    "country_code": "UA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/GJO4YI4EC6L1LpNFZX13eS.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C8%2C447%2C447&w=200&s=21d2e243978514fe4409e401611f714e",
+                    "url": "https://www.hltv.org/player/7998/s1mple"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4608/natus-vincere"
+        },
+        {
+            "rank": 2,
+            "name": "Gambit",
+            "points": 511,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/pNV-lVdpvYZIkDwHdEXXg-.svg?ixlib=java-2.1.0&s=8b557b5b4d283208976340ef1bc44c76",
+            "players": [
+                {
+                    "name": "Ax1Le",
+                    "full_name": "Sergey Rykhtorov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/nfk2J6cJ_0Fq1tjerx_u_4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C482%2C482&w=200&s=6b3269c28e242229f72daa24523573a6",
+                    "url": "https://www.hltv.org/player/16555/ax1le"
+                },
+                {
+                    "name": "HObbit",
+                    "full_name": "Abay Khasenov",
+                    "country_code": "KZ",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/A14UdvKmEs_ixvzricq4NR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C12%2C486%2C486&w=200&s=84bf7f3aed3060d5969b5c347f04ee65",
+                    "url": "https://www.hltv.org/player/8528/hobbit"
+                },
+                {
+                    "name": "interz",
+                    "full_name": "Timofey Yakushin",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/RWr4TjgjwvTl4hlyO5t6sP.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C494%2C494&w=200&s=0edebd852e1df5b459502762db5db30c",
+                    "url": "https://www.hltv.org/player/15071/interz"
+                },
+                {
+                    "name": "nafany",
+                    "full_name": "Vladislav Gorshkov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/E1MHmte4xcMCuFMEiqQoBf.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C12%2C490%2C490&w=200&s=781540b98fdb5a3a2f5b6d66fd016977",
+                    "url": "https://www.hltv.org/player/16921/nafany"
+                },
+                {
+                    "name": "sh1ro",
+                    "full_name": "Dmitry Sokolov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/BdarGeGFrVkqTeGANja0Gk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C12%2C494%2C494&w=200&s=e5357d315848e713518a809e9682919f",
+                    "url": "https://www.hltv.org/player/16920/sh1ro"
+                }
+            ],
+            "url": "https://www.hltv.org/team/6651/gambit"
+        },
+        {
+            "rank": 3,
+            "name": "Vitality",
+            "points": 469,
+            "change": -1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/GAlByJtDTnkgbb9p_71SUL.png?ixlib=java-2.1.0&w=50&s=2838cd78a5ebb5c9fea4c485908e9dbb",
+            "players": [
+                {
+                    "name": "apEX",
+                    "full_name": "Dan Madesclaire",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bYbZr7IJUPf19jaBqu_86l.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C451%2C451&w=200&s=187700f51bd8c36832ef344560955c09",
+                    "url": "https://www.hltv.org/player/7322/apex"
+                },
+                {
+                    "name": "Kyojin",
+                    "full_name": "Jayson Nguyen Van",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/HoRDGR0QcTS5JVofMRUYX7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C459%2C459&w=200&s=5d6ef4de13501151de8a76aaa0f08dc1",
+                    "url": "https://www.hltv.org/player/19672/kyojin"
+                },
+                {
+                    "name": "misutaaa",
+                    "full_name": "Kévin Rabier",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/hWHKgPLHN0BOCSXcnYOm_r.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C459%2C459&w=200&s=54ac3d72bd0465d00cc29e98d80c1ede",
+                    "url": "https://www.hltv.org/player/14176/misutaaa"
+                },
+                {
+                    "name": "ZywOo",
+                    "full_name": "Mathieu Herbaut",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/FU6cX0sBXlqI-UGYm_92sq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C451%2C451&w=200&s=ff93670ce9dba75364d08a0cb4e04270",
+                    "url": "https://www.hltv.org/player/11893/zywoo"
+                }
+            ],
+            "url": "https://www.hltv.org/team/9565/vitality"
+        },
+        {
+            "rank": 4,
+            "name": "G2",
+            "points": 413,
+            "change": 0,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=50&s=affb583e6716d8ee904826992255cc4b",
+            "players": [
+                {
+                    "name": "AMANEK",
+                    "full_name": "François Delaunay",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/alsdIOQ1agKFn5rn9cnKs_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C490%2C490&w=200&s=9b73304d4537ad5bb803548961b9e9d3",
+                    "url": "https://www.hltv.org/player/9616/amanek"
+                },
+                {
+                    "name": "huNter-",
+                    "full_name": "Nemanja Kovač",
+                    "country_code": "BA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/4K8FPoyypPNYvs9h16h-lK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C0%2C486%2C486&w=200&s=e04fa4f4fdb74004ccc72c17da1a1e05",
+                    "url": "https://www.hltv.org/player/3972/hunter"
+                },
+                {
+                    "name": "JACKZ",
+                    "full_name": "Audric Jug",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/pPgvn2KRTXUWfy7KodUJA6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C478%2C478&w=200&s=ab446252ee0e8368788bdc587c5b5476",
+                    "url": "https://www.hltv.org/player/284/jackz"
+                },
+                {
+                    "name": "nexa",
+                    "full_name": "Nemanja Isaković",
+                    "country_code": "RS",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/7sXC-6azlqiicb_kYalrwI.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C482%2C482&w=200&s=63b1304ac78ad2e2ec38c4ace4472456",
+                    "url": "https://www.hltv.org/player/9618/nexa"
+                },
+                {
+                    "name": "NiKo",
+                    "full_name": "Nikola Kovač",
+                    "country_code": "BA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/lfzbHz7wzeSV6goLEvmvfz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C463%2C463&w=200&s=fcb4ebf9d539a95f378b8d30a7bdb5e8",
+                    "url": "https://www.hltv.org/player/3741/niko"
+                }
+            ],
+            "url": "https://www.hltv.org/team/5995/g2"
+        },
+        {
+            "rank": 5,
+            "name": "Heroic",
+            "points": 272,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/Q6BGM_VQRz8Y9m3UgaqiUx.svg?ixlib=java-2.1.0&s=9424e99a6d77c8f154ea2d74175b3e17",
+            "players": [
+                {
+                    "name": "cadiaN",
+                    "full_name": "Casper Møller",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/QQ61eqccSn_egB_OCkOkg9.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C482%2C482&w=200&s=50a87cfc3c1a53c397bc985fbf280233",
+                    "url": "https://www.hltv.org/player/7964/cadian"
+                },
+                {
+                    "name": "refrezh",
+                    "full_name": "Ismail Ali",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/o9Xo_0hMD1ZYQNRzlnDTA2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C474%2C474&w=200&s=50b4d556f394a2f524b0ca49df937052",
+                    "url": "https://www.hltv.org/player/10610/refrezh"
+                },
+                {
+                    "name": "sjuush",
+                    "full_name": "Rasmus Beck",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/iYIRihKwp8zTSM-nOhgzzD.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C490%2C490&w=200&s=77ce96632d7516532aef927416473499",
+                    "url": "https://www.hltv.org/player/14148/sjuush"
+                },
+                {
+                    "name": "stavn",
+                    "full_name": "Martin Lund",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ebX1nyC7pzo5bLwDtkmabc.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C482%2C482&w=200&s=dd746ef9978ec93d584706e25a5d8153",
+                    "url": "https://www.hltv.org/player/10994/stavn"
+                },
+                {
+                    "name": "TeSeS",
+                    "full_name": "René Madsen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/6hSNbL27oIt8TRAcHyd1K7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C482%2C482&w=200&s=ba3a69c2a5e15aaccc3741d426b623c4",
+                    "url": "https://www.hltv.org/player/12018/teses"
+                }
+            ],
+            "url": "https://www.hltv.org/team/7175/heroic"
+        },
+        {
+            "rank": 6,
+            "name": "NIP",
+            "points": 272,
+            "change": -1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/-ttGATBV_P_HcZazxNNtIb.png?ixlib=java-2.1.0&w=50&s=ba94f7812d1f47183a83f3f34ab959eb",
+            "players": [
+                {
+                    "name": "device",
+                    "full_name": "Nicolai Reedtz",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/e-VpY--MZr_3XFDmj8DBd6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C467%2C467&w=200&s=be6cce908948cc957456a583af69c172",
+                    "url": "https://www.hltv.org/player/7592/device"
+                },
+                {
+                    "name": "es3tag",
+                    "full_name": "Patrick Hansen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ljNt49_NWWJC1uQt_Jl1H2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C8%2C455%2C455&w=200&s=f2dbf3c8467d01f014e5c09270b4aabc",
+                    "url": "https://www.hltv.org/player/8611/es3tag"
+                },
+                {
+                    "name": "hampus",
+                    "full_name": "Hampus Poser",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/c8Zuac20HpzF0QF8ZP92Rd.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C459%2C459&w=200&s=ebd5ec063b40a0bfca45a2c9c5e3422a",
+                    "url": "https://www.hltv.org/player/9766/hampus"
+                },
+                {
+                    "name": "Plopski",
+                    "full_name": "Nicolas Gonzalez Zamora",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/WtGwESz1y4aPKFwjL5hGjM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C447%2C447&w=200&s=5eaf81a9a487d4b0bdd396e79e86cc87",
+                    "url": "https://www.hltv.org/player/14218/plopski"
+                },
+                {
+                    "name": "REZ",
+                    "full_name": "Fredrik Sterner",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/wo_7u8xDj7_NLVMkFr-_J7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C463%2C463&w=200&s=53884b46f6030f3731907aeb55c84a0c",
+                    "url": "https://www.hltv.org/player/9278/rez"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4411/nip"
+        },
+        {
+            "rank": 7,
+            "name": "Virtus.pro",
+            "points": 250,
+            "change": 0,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875",
+            "players": [
+                {
+                    "name": "buster",
+                    "full_name": "Timur Tulepov",
+                    "country_code": "KZ",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/rrf6hlmVzRD7ykPnPAk3d7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C4%2C439%2C439&w=200&s=2c51f113122f8cb1689967d1fbb5c9e7",
+                    "url": "https://www.hltv.org/player/11942/buster"
+                },
+                {
+                    "name": "FL1T",
+                    "full_name": "Evgeny Lebedev",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/HkmapyxpIztrQ5hP7kVtCk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C459%2C459&w=200&s=d730fc7bd74746bc93bc088935eaf29b",
+                    "url": "https://www.hltv.org/player/12732/fl1t"
+                },
+                {
+                    "name": "Jame",
+                    "full_name": "Dzhami Ali",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/pCKWwefa959N5F5iiOT2gq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C8%2C436%2C436&w=200&s=bf1fe0c99f9a3eb50bd826b687ebafdf",
+                    "url": "https://www.hltv.org/player/13776/jame"
+                },
+                {
+                    "name": "Qikert",
+                    "full_name": "Aleksei Golubev",
+                    "country_code": "KZ",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ywvztpL-p-0kxTuKroi1Xg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C455%2C455&w=200&s=b2f7f52bbc3d9b582d06707e37eceb9f",
+                    "url": "https://www.hltv.org/player/13239/qikert"
+                },
+                {
+                    "name": "YEKINDAR",
+                    "full_name": "Mareks Gaļinskis",
+                    "country_code": "LV",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/lkLa86vTloUAP5-DAoUDgg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C482%2C482&w=200&s=8d924480ac3661a2420a45830506a999",
+                    "url": "https://www.hltv.org/player/13915/yekindar"
+                }
+            ],
+            "url": "https://www.hltv.org/team/5378/virtuspro"
+        },
+        {
+            "rank": 8,
+            "name": "Astralis",
+            "points": 189,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+            "players": [
+                {
+                    "name": "blameF",
+                    "full_name": "Benjamin Bremer",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ZQMIcaRX2cC3h97k1-LZyR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C463%2C463&w=200&s=d74a22c5f03de49f3ed3bff9ac9593dc",
+                    "url": "https://www.hltv.org/player/15165/blamef"
+                },
+                {
+                    "name": "gla1ve",
+                    "full_name": "Lukas Rossander",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/RRW9pDs6BiIbvBFIWQ4LAr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C471%2C471&w=200&s=abf8e60e846b0abdfc39f609922b6bf0",
+                    "url": "https://www.hltv.org/player/7412/gla1ve"
+                },
+                {
+                    "name": "k0nfig",
+                    "full_name": "Kristian Wienecke",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/LTjaa9PMPamQVowIWm9FGH.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=c2df1438e65de26524c854fcfba6f1b9",
+                    "url": "https://www.hltv.org/player/9078/k0nfig"
+                },
+                {
+                    "name": "Lucky",
+                    "full_name": "Philip Ewald",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/u6ErxtCOfuuX1pYQnG-oyE.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C455%2C455&w=200&s=bb2be6d599d4675b5fe89e99691f6178",
+                    "url": "https://www.hltv.org/player/13843/lucky"
+                },
+                {
+                    "name": "Xyp9x",
+                    "full_name": "Andreas Højsleth",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/k80FOdd3-SGV91TXoXg2gY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C439%2C439&w=200&s=e8ff8365ba404b8f231090684ac06c90",
+                    "url": "https://www.hltv.org/player/4954/xyp9x"
+                }
+            ],
+            "url": "https://www.hltv.org/team/6665/astralis"
+        },
+        {
+            "rank": 9,
+            "name": "FaZe",
+            "points": 170,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/SMhzsxzbkIrgqCOOKGRXlW.svg?ixlib=java-2.1.0&s=e6a9ce0345c7d703e5eaac14307f69aa",
+            "players": [
+                {
+                    "name": "broky",
+                    "full_name": "Helvijs Saukants",
+                    "country_code": "LV",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/hDcsRcCR9WmOgn_wv76qfN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C478%2C478&w=200&s=ab684f2bf80c1e77769a5111e3bede61",
+                    "url": "https://www.hltv.org/player/18053/broky"
+                },
+                {
+                    "name": "karrigan",
+                    "full_name": "Finn Andersen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/m-nLViHQnrmmAMD0gX5MfM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C443%2C443&w=200&s=9b33aa78d1a0088433167d63a6150cc0",
+                    "url": "https://www.hltv.org/player/429/karrigan"
+                },
+                {
+                    "name": "olofmeister",
+                    "full_name": "Olof Kajbjer",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/T4k2BS5NnPAoyh8yeg28MK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C19%2C455%2C455&w=200&s=11551cc0286c27275aafbfc0df2d339a",
+                    "url": "https://www.hltv.org/player/885/olofmeister"
+                },
+                {
+                    "name": "rain",
+                    "full_name": "Håvard Nygaard",
+                    "country_code": "NO",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/-FeWtsPglnnAsxtwEl5D8s.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C474%2C474&w=200&s=b1a76f23cfe06e21982ff8dcd59df769",
+                    "url": "https://www.hltv.org/player/8183/rain"
+                },
+                {
+                    "name": "Twistzz",
+                    "full_name": "Russel Van Dulken",
+                    "country_code": "CA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bqU4MKp5dg2NKjboZXmWI4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C16%2C482%2C482&w=200&s=b41832a3a9c75270a49f4b2fb2a5bccd",
+                    "url": "https://www.hltv.org/player/10394/twistzz"
+                }
+            ],
+            "url": "https://www.hltv.org/team/6667/faze"
+        },
+        {
+            "rank": 10,
+            "name": "Entropiq",
+            "points": 151,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=50&s=3ab3a2cbfb2ed2e30c1a71ca8113ae39",
+            "players": [
+                {
+                    "name": "El1an",
+                    "full_name": "Aleksei Gusev",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Vm3vJyQWHRMNT49g47QwJ4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C19%2C471%2C471&w=200&s=981b521cbf21845d0f301c077c2d5dc8",
+                    "url": "https://www.hltv.org/player/13281/el1an"
+                },
+                {
+                    "name": "Forester",
+                    "full_name": "Igor Bezotecheskiy",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/dpWmJY2D_WbeDgRcVVkOHh.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C455%2C455&w=200&s=14a48d2e05b98d360c60feed3c7aa459",
+                    "url": "https://www.hltv.org/player/13982/forester"
+                },
+                {
+                    "name": "Krad",
+                    "full_name": "Vladislav Kravchenko",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/v4ELAoCYF6eAQVOd5aXU9K.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C451%2C451&w=200&s=8d86ae94c5bc1250a701f14d2b5954fa",
+                    "url": "https://www.hltv.org/player/12027/krad"
+                },
+                {
+                    "name": "Lack1",
+                    "full_name": "Viktor Boldyrev",
+                    "country_code": "KZ",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/I-US8kUPfKDKV8fc0yw1QI.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C451%2C451&w=200&s=8f39458be0c9b1b9e8133ca3505cdef5",
+                    "url": "https://www.hltv.org/player/13240/lack1"
+                },
+                {
+                    "name": "NickelBack",
+                    "full_name": "Aleksei Trofimov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/zCPQu8u1GLEQNubdm_eVlC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C443%2C443&w=200&s=c4ce9e74d9c5eb52abb905d6747d1a07",
+                    "url": "https://www.hltv.org/player/11498/nickelback"
+                }
+            ],
+            "url": "https://www.hltv.org/team/10831/entropiq"
+        },
+        {
+            "rank": 11,
+            "name": "FURIA",
+            "points": 151,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+            "players": [
+                {
+                    "name": "arT",
+                    "full_name": "Andrei Piovezan",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/APsaniM__qNW2eJA4Of8wq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=1989d63ddafb5c32da59e78603ad4fee",
+                    "url": "https://www.hltv.org/player/12521/art"
+                },
+                {
+                    "name": "drop",
+                    "full_name": "André Abreu",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bKEi7st3hlU5YroHhndn6D.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C16%2C474%2C474&w=200&s=01d93c0cb733ddc8c01662069bbe41e6",
+                    "url": "https://www.hltv.org/player/19750/drop"
+                },
+                {
+                    "name": "KSCERATO",
+                    "full_name": "Kaike Cerato",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/7UlnSQw1PMKkNuZjl16KSE.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C459%2C459&w=200&s=ae941208c64159efb10cb7fc07721d50",
+                    "url": "https://www.hltv.org/player/15631/kscerato"
+                },
+                {
+                    "name": "VINI",
+                    "full_name": "Vinicius Figueiredo",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Ou264cn99p0GDcqKP5fY8N.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C467%2C467&w=200&s=8a8bcc7c1d698e8f5cd549def5c67c52",
+                    "url": "https://www.hltv.org/player/12822/vini"
+                },
+                {
+                    "name": "yuurih",
+                    "full_name": "Yuri Santos",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bO-RMEqskEFI7s9iMFKLC6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C467%2C467&w=200&s=85b67622ef9385a5624f5f9d8f0f83a7",
+                    "url": "https://www.hltv.org/player/12553/yuurih"
+                }
+            ],
+            "url": "https://www.hltv.org/team/8297/furia"
+        },
+        {
+            "rank": 12,
+            "name": "fnatic",
+            "points": 101,
+            "change": 2,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e",
+            "players": [
+                {
+                    "name": "ALEX",
+                    "full_name": "Alex McMeekin",
+                    "country_code": "GB",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/LiUgPfsVF3xCJqCV3fCQSX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C451%2C451&w=200&s=ad9d5aaddaaa2d4fc08c5f4fb405735d",
+                    "url": "https://www.hltv.org/player/8184/alex"
+                },
+                {
+                    "name": "Brollan",
+                    "full_name": "Ludvig Brolin",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/tOFU3yLibaweQqCQK2RdhN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C467%2C467&w=200&s=33c0233e602d837d317f07272ace0e26",
+                    "url": "https://www.hltv.org/player/13666/brollan"
+                },
+                {
+                    "name": "KRIMZ",
+                    "full_name": "Freddy Johansson",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/oZ3FusSq5BqsgbM5EFd_Ov.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C455%2C455&w=200&s=e9a16d8f0ef81da91277dd122b9cad03",
+                    "url": "https://www.hltv.org/player/7528/krimz"
+                },
+                {
+                    "name": "mezii",
+                    "full_name": "William Merriman",
+                    "country_code": "GB",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bGzaNflnLIkKDeP_D5CPSn.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C447%2C447&w=200&s=000ece1a4f4fd179659abfaefe6e7a48",
+                    "url": "https://www.hltv.org/player/18462/mezii"
+                },
+                {
+                    "name": "smooya",
+                    "full_name": "Owen Butterfield",
+                    "country_code": "GB",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Q3ETPtuXe61cj8TUr6j1GC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=9c7c9a1389bc0fa596e1a025e44653d1",
+                    "url": "https://www.hltv.org/player/11271/smooya"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4991/fnatic"
+        },
+        {
+            "rank": 13,
+            "name": "Copenhagen Flames",
+            "points": 98,
+            "change": 2,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=50&s=6a3e50d369c8777a5ce5059c1d7676b3",
+            "players": [
+                {
+                    "name": "HooXi",
+                    "full_name": "Rasmus Nielsen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/vELmmKOiNU39PuLej528ya.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=88a7a5863bef1bc7c47e14b83ce6c94f",
+                    "url": "https://www.hltv.org/player/10096/hooxi"
+                },
+                {
+                    "name": "jabbi",
+                    "full_name": "Jakob Nygaard",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/1y3Sj43cBcgXav7QatfYTd.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C463%2C463&w=200&s=6e3904946826bc72f535973e1631abac",
+                    "url": "https://www.hltv.org/player/17956/jabbi"
+                },
+                {
+                    "name": "nicoodoz",
+                    "full_name": "Nico Tamjidi",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ZWvr0i2NC26ex_VtGMmR4O.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=7fddd896482e3d2117843ffaaf410791",
+                    "url": "https://www.hltv.org/player/13602/nicoodoz"
+                },
+                {
+                    "name": "roeJ",
+                    "full_name": "Fredrik Jørgensen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/zr0TkrflA3O27Hu_Ztu9ZX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C478%2C478&w=200&s=67c163f060c5edc32abfd3d989d7f791",
+                    "url": "https://www.hltv.org/player/14419/roej"
+                },
+                {
+                    "name": "Zyphon",
+                    "full_name": "Rasmus Nordfoss",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/O8_ZNuMXV5TT4sFtHwAJaj.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=96c139ce75157ef98750a97009246f56",
+                    "url": "https://www.hltv.org/player/20090/zyphon"
+                }
+            ],
+            "url": "https://www.hltv.org/team/7461/copenhagen-flames"
+        },
+        {
+            "rank": 14,
+            "name": "BIG",
+            "points": 95,
+            "change": -1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/OgMRQA35hopXA8kDwMFHIY.svg?ixlib=java-2.1.0&s=ec7bc44165c7acf4224a22a1338ab7d7",
+            "players": [
+                {
+                    "name": "gade",
+                    "full_name": "Nicklas Gade",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/H5qYtpIyCv9KIxxSoFB4O2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C16%2C474%2C474&w=200&s=d6017e12849e5ca1ba1316918c777068",
+                    "url": "https://www.hltv.org/player/8875/gade"
+                },
+                {
+                    "name": "k1to",
+                    "full_name": "Nils Gruhne",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/HWAW0pjk3dHLZIQBeDzMAr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C471%2C471&w=200&s=d9496c81a0ccc47ca5751bc2547a17ec",
+                    "url": "https://www.hltv.org/player/12781/k1to"
+                },
+                {
+                    "name": "syrsoN",
+                    "full_name": "Florian Rische",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/l4rU0BdygUpXFYfO4KcWfk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=6d85041b2cc6b535718987d43a8bee30",
+                    "url": "https://www.hltv.org/player/7266/syrson"
+                },
+                {
+                    "name": "tabseN",
+                    "full_name": "Johannes Wodarz",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/lp2wJxhwwkR-QaRKhDHLFN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C471%2C471&w=200&s=e7f36fed7815a5961b02f6a8e2d109c0",
+                    "url": "https://www.hltv.org/player/5794/tabsen"
+                },
+                {
+                    "name": "tiziaN",
+                    "full_name": "Tizian Feldbusch",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/DcDMJeKuKiZWqdMcQTQ01v.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=101%2C12%2C459%2C459&w=200&s=e1b3672297b1745c3bcd23275923786e",
+                    "url": "https://www.hltv.org/player/5796/tizian"
+                }
+            ],
+            "url": "https://www.hltv.org/team/7532/big"
+        },
+        {
+            "rank": 15,
+            "name": "ENCE",
+            "points": 88,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8",
+            "players": [
+                {
+                    "name": "doto",
+                    "full_name": "Joonas Forss",
+                    "country_code": "FI",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/k8SKCIV7MdjU0TG17g-U6N.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C443%2C443&w=200&s=4bae3b3cfce115d538688eaf2d1a0a7d",
+                    "url": "https://www.hltv.org/player/9819/doto"
+                },
+                {
+                    "name": "dycha",
+                    "full_name": "Paweł Dycha",
+                    "country_code": "PL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/YEhB4CF-gQjutIM4XmHy7E.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C439%2C439&w=200&s=143c5ac2daecc3d60e9861204a22e57e",
+                    "url": "https://www.hltv.org/player/16080/dycha"
+                },
+                {
+                    "name": "hades",
+                    "full_name": "Olek Miskiewicz",
+                    "country_code": "PL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/x7zwbATg8h5gNvixl5ODQN.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C443%2C443&w=200&s=0fb2c9ba34f9b795100d61fac65ab7d1",
+                    "url": "https://www.hltv.org/player/16848/hades"
+                },
+                {
+                    "name": "Snappi",
+                    "full_name": "Marco Pfeiffer",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/F5QIkxXIxoZ_wFGpUSjF67.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C12%2C436%2C436&w=200&s=1cb5079857784d2bb812659fa625f55f",
+                    "url": "https://www.hltv.org/player/922/snappi"
+                },
+                {
+                    "name": "Spinx",
+                    "full_name": "Lotan Giladi",
+                    "country_code": "IL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/FomNik3rcQn3eXH58hgRR_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C447%2C447&w=200&s=84193368faef4f4c58baa56897650376",
+                    "url": "https://www.hltv.org/player/18221/spinx"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4869/ence"
+        },
+        {
+            "rank": 16,
+            "name": "GODSENT",
+            "points": 86,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/WQl1L0NmsdhupV8S-fzQvA.svg?ixlib=java-2.1.0&s=7550f0c714f66781c2545e633ea582e2",
+            "players": [
+                {
+                    "name": "b4rtiN",
+                    "full_name": "Bruno Câmara",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/VxroMvMp31VpjG-Z6xZOmo.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C463%2C463&w=200&s=0caf954b5af1d7ff1b1564477d273c9b",
+                    "url": "https://www.hltv.org/player/17585/b4rtin"
+                },
+                {
+                    "name": "dumau",
+                    "full_name": "Eduardo Wolkmer",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/9mIBvOwTMysRMcwBfJVf8f.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C8%2C455%2C455&w=200&s=8a7ccf4939b4b4292eaaf324c45cc3e5",
+                    "url": "https://www.hltv.org/player/15698/dumau"
+                },
+                {
+                    "name": "felps",
+                    "full_name": "João Vasconcellos",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/oZoEIr6IzN4oKYf8zShvv2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C8%2C463%2C463&w=200&s=f638aa066025fba9c567be7984bb0dd7",
+                    "url": "https://www.hltv.org/player/9219/felps"
+                },
+                {
+                    "name": "latto",
+                    "full_name": "Bruno Rebelatto",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/OHsM5l27JKNgjP-iO6_gpC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C16%2C498%2C498&w=200&s=3f1498f93592e769b075a37c65782f5f",
+                    "url": "https://www.hltv.org/player/19045/latto"
+                },
+                {
+                    "name": "TACO",
+                    "full_name": "Epitacio de Melo",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/4JccTR7Pnw1h3k56GQ3qQ8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C8%2C486%2C486&w=200&s=de8743e700acb7679d2c25354dbbb2f8",
+                    "url": "https://www.hltv.org/player/9217/taco"
+                }
+            ],
+            "url": "https://www.hltv.org/team/6902/godsent"
+        },
+        {
+            "rank": 17,
+            "name": "OG",
+            "points": 82,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/7b6DouMNGWcqENDx1vw_Ot.png?ixlib=java-2.1.0&w=50&s=5ffc85bfbc0398d0a826590a790a08a6",
+            "players": [
+                {
+                    "name": "Aleksib",
+                    "full_name": "Aleksi Virolainen",
+                    "country_code": "FI",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/KCFlBkEOGH0JDM2aYH3OCg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C474%2C474&w=200&s=51a857175490fa2daecbe9ba5c64ca69",
+                    "url": "https://www.hltv.org/player/9816/aleksib"
+                },
+                {
+                    "name": "flameZ",
+                    "full_name": "Shahar Shushan",
+                    "country_code": "IL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/S55QBLi96Z0ek1E7ie4sit.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=5ebfbfc5fae91e1e08c6e47bf3b90c01",
+                    "url": "https://www.hltv.org/player/16693/flamez"
+                },
+                {
+                    "name": "mantuu",
+                    "full_name": "Mateusz Wilczewski",
+                    "country_code": "PL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/WBWCGFKzuouBkZ-BKv5SZz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C16%2C463%2C463&w=200&s=b0739f20190de4bcb8df7250c3392221",
+                    "url": "https://www.hltv.org/player/10981/mantuu"
+                },
+                {
+                    "name": "niko",
+                    "full_name": "Nikolaj Kristensen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/A0_GwgAbZ_zsdRDR2sFgG_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C455%2C455&w=200&s=10bf642bbf8f1a8918be5eeb64fbf641",
+                    "url": "https://www.hltv.org/player/10264/niko"
+                },
+                {
+                    "name": "valde",
+                    "full_name": "Valdemar Bjørn Vangså",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/V6nPJBLCt9KAyLBwa1UiDT.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C474%2C474&w=200&s=7a1b24abf20a48cdc6baad624f2125e5",
+                    "url": "https://www.hltv.org/player/9031/valde"
+                }
+            ],
+            "url": "https://www.hltv.org/team/10503/og"
+        },
+        {
+            "rank": 18,
+            "name": "MOUZ",
+            "points": 80,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=50&s=051cbffad4d1c25468d83abee6f4fe23",
+            "players": [
+                {
+                    "name": "acoR",
+                    "full_name": "Frederik Gyldstrand",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/9loEKNucGaHZkJkpWbzX70.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C490%2C490&w=200&s=854fd974f7eb6daf704e62368efa05b0",
+                    "url": "https://www.hltv.org/player/10330/acor"
+                },
+                {
+                    "name": "Bymas",
+                    "full_name": "Aurimas Pipiras",
+                    "country_code": "LT",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/dwSFwc6dwQwOhbHVm5zp7q.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C463%2C463&w=200&s=4b334df0f621cc58f2873a164ae0ac3a",
+                    "url": "https://www.hltv.org/player/19015/bymas"
+                },
+                {
+                    "name": "dexter",
+                    "full_name": "Christopher Nong",
+                    "country_code": "AU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Xs34gKstyGb_18OJwIQlBu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C471%2C471&w=200&s=004c84c770854a004c61da95e47aee8f",
+                    "url": "https://www.hltv.org/player/9115/dexter"
+                },
+                {
+                    "name": "frozen",
+                    "full_name": "David Čerňanský",
+                    "country_code": "SK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/UFoUkMCn8TMm5cUJHScvjA.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C0%2C498%2C498&w=200&s=85f3793c4c79fcdfd768289305ff10a0",
+                    "url": "https://www.hltv.org/player/9960/frozen"
+                },
+                {
+                    "name": "ropz",
+                    "full_name": "Robin Kool",
+                    "country_code": "EE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/dLG2N1llEWQnm_qdqxf19E.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C474%2C474&w=200&s=bc9065c207e4d9e9051452ffb8cd081d",
+                    "url": "https://www.hltv.org/player/11816/ropz"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4494/mouz"
+        },
+        {
+            "rank": 19,
+            "name": "Movistar Riders",
+            "points": 56,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+            "players": [
+                {
+                    "name": "alex",
+                    "full_name": "Alejandro Masanet",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/uM6PqVJy_HLLMHzR5_HWjy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C463%2C463&w=200&s=f2ef29d005dd78433a0c0066d657dcd9",
+                    "url": "https://www.hltv.org/player/8371/alex"
+                },
+                {
+                    "name": "dav1g",
+                    "full_name": "David Granado Bermudo",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/6i4bmpUFUFttjrxoaTzX7D.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C463%2C463&w=200&s=2e2615f923a5b67ac4125af9dd9c8f92",
+                    "url": "https://www.hltv.org/player/19509/dav1g"
+                },
+                {
+                    "name": "DeathZz",
+                    "full_name": "Raúl Jordán Nieto",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/I17IGR0UcoT37Tf3rsSIhA.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C478%2C478&w=200&s=62cfbb3aa59afc8da8a9e2f6fa406044",
+                    "url": "https://www.hltv.org/player/13093/deathzz"
+                },
+                {
+                    "name": "mopoz",
+                    "full_name": "Alejandro Fernández-Quejo Cano",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/bNmgyWSuCoNz-wT6kiqTxC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C451%2C451&w=200&s=2e629d5584e03d0d50367936066ed6b3",
+                    "url": "https://www.hltv.org/player/9254/mopoz"
+                },
+                {
+                    "name": "SunPayus",
+                    "full_name": "Alvaro Garcia",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/hT-FUXZAHf9QtQBKy7VNIz.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C478%2C478&w=200&s=23b290889f47769b1824269e26abb74c",
+                    "url": "https://www.hltv.org/player/19164/sunpayus"
+                }
+            ],
+            "url": "https://www.hltv.org/team/7718/movistar-riders"
+        },
+        {
+            "rank": 20,
+            "name": "Sprout",
+            "points": 49,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474",
+            "players": [
+                {
+                    "name": "faveN",
+                    "full_name": "Josef Baumann",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ig_FdFRY8rFD_0Ei4j7xw4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C8%2C451%2C451&w=200&s=d6436c3f01a9f6905cfcb7fe084f62bd",
+                    "url": "https://www.hltv.org/player/14932/faven"
+                },
+                {
+                    "name": "KEi",
+                    "full_name": "Kamil Pietkun",
+                    "country_code": "PL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/5hWWE82we6b-rfG12bikBJ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C451%2C451&w=200&s=17bed93c1a3a2e77d3c46cd215486898",
+                    "url": "https://www.hltv.org/player/17504/kei"
+                },
+                {
+                    "name": "raalz",
+                    "full_name": "Rasmus Steensborg",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/HXPHACqvHIUWZxQLQlMHd4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C8%2C436%2C436&w=200&s=195d774fadb97cd2e21b93c4d9668f63",
+                    "url": "https://www.hltv.org/player/2898/raalz"
+                },
+                {
+                    "name": "slaxz-",
+                    "full_name": "Fritz Dietrich",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/FOsdB7D2xcodAlYoOjHyzs.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C459%2C459&w=200&s=3509a3dd0f020ba506e7b0bd0a2f4618",
+                    "url": "https://www.hltv.org/player/15370/slaxz"
+                },
+                {
+                    "name": "Spiidi",
+                    "full_name": "Timo Richter",
+                    "country_code": "DE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/RcV2ouQK8xCf5MBoDE5RR-.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C19%2C432%2C432&w=200&s=742f17055b312150044785738a5a8ff4",
+                    "url": "https://www.hltv.org/player/7499/spiidi"
+                }
+            ],
+            "url": "https://www.hltv.org/team/8637/sprout"
+        },
+        {
+            "rank": 21,
+            "name": "Extra Salt",
+            "points": 46,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/qGJmW___da6KQjZWwhZOD6.png?ixlib=java-2.1.0&w=50&s=bf76dedd41cbd304b8633ebfa6cb70a8",
+            "players": [
+                {
+                    "name": "FaNg",
+                    "full_name": "Justin Coakley",
+                    "country_code": "CA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/t6df82v_bMtCCutBQYyWW4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C455%2C455&w=200&s=42484646f62df6ab32f4b6baad2dae19",
+                    "url": "https://www.hltv.org/player/17372/fang"
+                },
+                {
+                    "name": "floppy",
+                    "full_name": "Ricky Kemery",
+                    "country_code": "US",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/OprLES_77dEJ7nxnMvPcnR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C459%2C459&w=200&s=531a6475f4c5a40aedd4a954ccde1a6c",
+                    "url": "https://www.hltv.org/player/12713/floppy"
+                },
+                {
+                    "name": "JT",
+                    "full_name": "Johnny Theodosiou",
+                    "country_code": "ZA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/mlv4Vg60QjHVi3PuY6Vj-z.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C459%2C459&w=200&s=77eae32ae27fa3b15dd803328a091222",
+                    "url": "https://www.hltv.org/player/11630/jt"
+                },
+                {
+                    "name": "MarKE",
+                    "full_name": "Edgar Maldonado",
+                    "country_code": "MX",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/d-z-LYialYFLZVXFwMQE3X.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C4%2C447%2C447&w=200&s=cb203d9e14459f286126757be99839cc",
+                    "url": "https://www.hltv.org/player/10892/marke"
+                },
+                {
+                    "name": "oSee",
+                    "full_name": "Josh Ohm",
+                    "country_code": "US",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/c6NKfguvB6_5_HlTLvMbAj.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C439%2C439&w=200&s=c36f113a6242e6b9076b3aa84dd9ea91",
+                    "url": "https://www.hltv.org/player/13249/osee"
+                }
+            ],
+            "url": "https://www.hltv.org/team/10948/extra-salt"
+        },
+        {
+            "rank": 22,
+            "name": "ECSTATIC",
+            "points": 43,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/-Wa4og1Vm7ZxJesd3xbnUu.png?ixlib=java-2.1.0&w=50&s=3685491e9a4a1c9db60d16e4e973be75",
+            "players": [
+                {
+                    "name": "birdfromsky",
+                    "full_name": "Thomas Due-Frederiksen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/mDStPGtDP33cnq1QO4-VFq.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C459%2C459&w=200&s=c9cf7a234c4dd8ec2144689b1b4b4f3c",
+                    "url": "https://www.hltv.org/player/13718/birdfromsky"
+                },
+                {
+                    "name": "Daffu",
+                    "full_name": "Jakob Schildt",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/0Qnp70GNzi3LWPajOEOl-G.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C455%2C455&w=200&s=a259c6042a0a93b1944b582f7b01e6d7",
+                    "url": "https://www.hltv.org/player/11996/daffu"
+                },
+                {
+                    "name": "FASHR",
+                    "full_name": "Dion Derksen",
+                    "country_code": "NL",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/1l70NTcVV-Aa-VTxnA5kYy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=105%2C4%2C506%2C506&w=200&s=157957fc7630475000938ce786a636bd",
+                    "url": "https://www.hltv.org/player/11954/fashr"
+                },
+                {
+                    "name": "maNkz",
+                    "full_name": "Marcus Kjeldsen",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/iQ1ogaR00qZFwdaliV7ao0.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C486%2C486&w=200&s=0534f2f21069cf2bed9b62410482ae7a",
+                    "url": "https://www.hltv.org/player/15349/mankz"
+                },
+                {
+                    "name": "WolfY",
+                    "full_name": "Adam Andersson",
+                    "country_code": "US",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/wVQJgeyjyAmL17VfyoUFtd.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C490%2C490&w=200&s=7207133fd11168b442f3d529d059dbbe",
+                    "url": "https://www.hltv.org/player/12937/wolfy"
+                }
+            ],
+            "url": "https://www.hltv.org/team/11419/ecstatic"
+        },
+        {
+            "rank": 23,
+            "name": "forZe",
+            "points": 41,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/Qnpb1nBNLJUCyf4fRMFbzr.svg?ixlib=java-2.1.0&s=a798b973c429361844ee174e07ae2401",
+            "players": [
+                {
+                    "name": "Jerry",
+                    "full_name": "Andrey Mekhryakov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/5fH7Upzy_V1tAPJgF4mxpE.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=144%2C0%2C455%2C455&w=200&s=1ae08d3d65bc3d9fa36c989f47bddd99",
+                    "url": "https://www.hltv.org/player/13157/jerry"
+                },
+                {
+                    "name": "KENSI",
+                    "full_name": "Aleksandr Gurkin",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/p_FmirY_1wShsNxMAr8dEB.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=1fa30ba84a4ca1a46c249317b4d314ab",
+                    "url": "https://www.hltv.org/player/19236/kensi"
+                },
+                {
+                    "name": "Norwi",
+                    "full_name": "Evgeny Ermolin",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/-QLC0q3IACCZwnJnSOmdq4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C478%2C478&w=200&s=ff37158245e0897776261b6f58408952",
+                    "url": "https://www.hltv.org/player/19882/norwi"
+                },
+                {
+                    "name": "shalfey",
+                    "full_name": "Alexandr Marenov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/9ehV3aQ_HMLeD2XCRro_yu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C467%2C467&w=200&s=5ce28cd81cef7f9cb648406bcc059be9",
+                    "url": "https://www.hltv.org/player/17011/shalfey"
+                },
+                {
+                    "name": "zorte",
+                    "full_name": "Aleksandr Zagodyrenko",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/toVViib-wcZaRwokMe5nDH.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C478%2C478&w=200&s=a085ccd28fc7896756754497f166bcaf",
+                    "url": "https://www.hltv.org/player/15662/zorte"
+                }
+            ],
+            "url": "https://www.hltv.org/team/8135/forze"
+        },
+        {
+            "rank": 24,
+            "name": "K23",
+            "points": 37,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/e-KLQKZ-WCaZQPpqkwYEAg.png?ixlib=java-2.1.0&w=50&s=29d60f8fd6ac78bffdc63525710594a5",
+            "players": [
+                {
+                    "name": "fame",
+                    "full_name": "Petr Bolyshev",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/G0xuOppQTpBWkIbOKdqcQT.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C474%2C474&w=200&s=4d8296951523ceb32c953abccd6ac41e",
+                    "url": "https://www.hltv.org/player/20101/fame"
+                },
+                {
+                    "name": "n0rb3r7",
+                    "full_name": "David Danielyan",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/gzsrQacWpw0gGD72D-LNkK.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C16%2C459%2C459&w=200&s=942d160bd9f3a2b9496e34ed57bbd28a",
+                    "url": "https://www.hltv.org/player/16612/n0rb3r7"
+                },
+                {
+                    "name": "neaLaN",
+                    "full_name": "Sanzhar Iskhakov",
+                    "country_code": "KZ",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Qt3fS2N8tneajbvxDirlaw.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C459%2C459&w=200&s=e29b24e1cbfc94d3a47d446480058082",
+                    "url": "https://www.hltv.org/player/11940/nealan"
+                },
+                {
+                    "name": "X5G7V",
+                    "full_name": "Daniil Maryshev",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/MTr4m3vXd2zdTMUKEwmUSo.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C12%2C478%2C478&w=200&s=24041f057ca86538cb189d61d6ef8259",
+                    "url": "https://www.hltv.org/player/19575/x5g7v"
+                },
+                {
+                    "name": "xsepower",
+                    "full_name": "Bogdan Chernikov",
+                    "country_code": "RU",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/rJA5OfW5xayP3nKMdfb1Zb.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=148%2C12%2C447%2C447&w=200&s=9d2d815e0ed5e4262ae7f5e46c7d58cc",
+                    "url": "https://www.hltv.org/player/12733/xsepower"
+                }
+            ],
+            "url": "https://www.hltv.org/team/7244/k23"
+        },
+        {
+            "rank": 25,
+            "name": "BLINK",
+            "points": 36,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/5NRu_RnNWb40s1OwgfNn76.png?ixlib=java-2.1.0&w=50&s=752a7ab012ddeeae71b5970a3b217c54",
+            "players": [
+                {
+                    "name": "gxx-",
+                    "full_name": "Genc Kolgeci",
+                    "country_code": "XK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/TtkW1fT54rKLhiThmZDC8h.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C455%2C455&w=200&s=9493ffbf4fac0f7f9c73c56b9ebd4975",
+                    "url": "https://www.hltv.org/player/19725/gxx"
+                },
+                {
+                    "name": "juanflatroo",
+                    "full_name": "Flatron Halimi",
+                    "country_code": "XK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Zn7N7z_rKuQfb0m0b0oxq8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C8%2C455%2C455&w=200&s=6d5a663526cfeb09e401cbbb49fc22ec",
+                    "url": "https://www.hltv.org/player/17147/juanflatroo"
+                },
+                {
+                    "name": "rigoN",
+                    "full_name": "Rigon Gashi",
+                    "country_code": "CH",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/0nhgEogMN6RLdQOz3ILcmx.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=148%2C4%2C439%2C439&w=200&s=cc114bdf9104185ae107571471300b5d",
+                    "url": "https://www.hltv.org/player/12708/rigon"
+                },
+                {
+                    "name": "SENER1",
+                    "full_name": "Sener Mahmuti",
+                    "country_code": "XK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/OJh3rBpHFcgGFLuMnZ8MHk.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=140%2C8%2C439%2C439&w=200&s=35c0f1201c227dc8c7fc97943ca384e8",
+                    "url": "https://www.hltv.org/player/15778/sener1"
+                },
+                {
+                    "name": "sinnopsyy",
+                    "full_name": "Dionis Budeci",
+                    "country_code": "XK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/sZYogbeK_2ugUDkV5h-dr7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C455%2C455&w=200&s=4c5a2dc8a8610a2c3550d9c2d31c10ad",
+                    "url": "https://www.hltv.org/player/18120/sinnopsyy"
+                }
+            ],
+            "url": "https://www.hltv.org/team/10697/blink"
+        },
+        {
+            "rank": 26,
+            "name": "Eternal Fire",
+            "points": 32,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/6NVm0Bx_x0--YcQ9d5qBLR.png?ixlib=java-2.1.0&w=50&s=4029d9ca0adbacdfe7f6eac8f5c35482",
+            "players": [
+                {
+                    "name": "Calyx",
+                    "full_name": "Buğra Arkın",
+                    "country_code": "TR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/3N_ExGyAA0BhP8JOohxS45.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C482%2C482&w=200&s=fafa0cab94219188464d8d778c49ae13",
+                    "url": "https://www.hltv.org/player/8575/calyx"
+                },
+                {
+                    "name": "imoRR",
+                    "full_name": "Ömer Karataş",
+                    "country_code": "TR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/1H4cAXSWHpRmgg6y4w5bSp.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=200&s=0ef535b78629cb4c9b0ef89e8fe76448",
+                    "url": "https://www.hltv.org/player/15835/imorr"
+                },
+                {
+                    "name": "woxic",
+                    "full_name": "Özgür Eker",
+                    "country_code": "TR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Q4TlBaPKq9yuvlaLM9jbnM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C12%2C467%2C467&w=200&s=93d8f7cf2094c011c8f34bfa73a9f5de",
+                    "url": "https://www.hltv.org/player/8574/woxic"
+                },
+                {
+                    "name": "XANTARES",
+                    "full_name": "Ismailcan Dörtkardeş",
+                    "country_code": "TR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/h_MZhF_-jjrwRg6Ql72XQ1.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C494%2C494&w=200&s=411f63917506ffd458f5a731574aa4b0",
+                    "url": "https://www.hltv.org/player/7938/xantares"
+                },
+                {
+                    "name": "xfl0ud",
+                    "full_name": "Yasin Koç",
+                    "country_code": "TR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/0YaEJ8XUc4-tsoJ6WfCLN2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C16%2C486%2C486&w=200&s=11efdf8e521c43fdfab34c1eafc5ba7a",
+                    "url": "https://www.hltv.org/player/19187/xfl0ud"
+                }
+            ],
+            "url": "https://www.hltv.org/team/11251/eternal-fire"
+        },
+        {
+            "rank": 27,
+            "name": "DBL PONEY",
+            "points": 31,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/i-cHMbeUqFG-ByKKErNwrL.png?ixlib=java-2.1.0&w=50&s=855a5caf7b0de5615b2572fe65255822",
+            "players": [
+                {
+                    "name": "afro",
+                    "full_name": "Aurélien Drapier",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/d_CBIbh9rdihnAaOyTBoxO.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C471%2C471&w=200&s=efb8e16892c3a4c7f189330ed5dd07d3",
+                    "url": "https://www.hltv.org/player/19926/afro"
+                },
+                {
+                    "name": "bodyy",
+                    "full_name": "Alexandre Pianaro",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/-BXJA-w64QbPQo7VpWVFNZ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C459%2C459&w=200&s=b1dea53fe6b5a2e130dbe43eff426778",
+                    "url": "https://www.hltv.org/player/8374/bodyy"
+                },
+                {
+                    "name": "Djoko",
+                    "full_name": "Thomas Pavoni",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/FlIk4d6Ei-xy0rZzcmnAq0.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C463%2C463&w=200&s=404bba68606e49449f9ac4c9dba23bfe",
+                    "url": "https://www.hltv.org/player/19738/djoko"
+                },
+                {
+                    "name": "Ex3rcice",
+                    "full_name": "Pierre Bulinge",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/o43kFAXWBn_RPmf1uKKm1e.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=84e8282f355516987e35c8aa048f9f80",
+                    "url": "https://www.hltv.org/player/19739/ex3rcice"
+                },
+                {
+                    "name": "Lucky",
+                    "full_name": "Lucas Chastang",
+                    "country_code": "FR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/jtZylIL6qfJzipnF-tC56f.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C0%2C471%2C471&w=200&s=683bbe4c205c765a232d4cfd4185cc23",
+                    "url": "https://www.hltv.org/player/13497/lucky"
+                }
+            ],
+            "url": "https://www.hltv.org/team/11003/dbl-poney"
+        },
+        {
+            "rank": 28,
+            "name": "paiN",
+            "points": 29,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/iUUCFwCOFmOrwhB8q8smMg.svg?ixlib=java-2.1.0&s=1446e1cf3d02deb8190fe6efd14e4ce4",
+            "players": [
+                {
+                    "name": "biguzera",
+                    "full_name": "Rodrigo Bittencourt",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/crfBaQ1DlAcVQAf2IDukU2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=78%2C12%2C548%2C548&w=200&s=38fb13095c957387239d336db1ed584a",
+                    "url": "https://www.hltv.org/player/18141/biguzera"
+                },
+                {
+                    "name": "hardzao",
+                    "full_name": "Wesley Lopes",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/S4SyJrD6QdEHgz3MB6rbV1.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=82%2C12%2C544%2C544&w=200&s=0341eda0962772c5a436094b2db4928a",
+                    "url": "https://www.hltv.org/player/16817/hardzao"
+                },
+                {
+                    "name": "NEKIZ",
+                    "full_name": "Gabriel Schenato",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/FEhzMQ1yH3_E8PHZ9138Y2.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=82%2C12%2C564%2C564&w=200&s=0f5a5f2e5bd0a85682b80adab17e4e38",
+                    "url": "https://www.hltv.org/player/9482/nekiz"
+                },
+                {
+                    "name": "PKL",
+                    "full_name": "Vinicios Coelho",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/LJJaS9iywtmTr5S934DAUa.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=86%2C8%2C541%2C541&w=200&s=e52ff5d9cb2b51fd3faa426adc7ccd5f",
+                    "url": "https://www.hltv.org/player/6593/pkl"
+                },
+                {
+                    "name": "saffee",
+                    "full_name": "Rafael Costa",
+                    "country_code": "BR",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/UMtkaNbvx8GLdFiTzhk5zT.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=89%2C12%2C548%2C548&w=200&s=3ba74e0f9b6f0ecbb1c038c23e2c46b1",
+                    "url": "https://www.hltv.org/player/18835/saffee"
+                }
+            ],
+            "url": "https://www.hltv.org/team/4773/pain"
+        },
+        {
+            "rank": 29,
+            "name": "GamerLegion",
+            "points": 28,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/BD1c0f7YvwuXp4RLrWYnFe.svg?ixlib=java-2.1.0&s=9ffb668953d51e419065821b6c276762",
+            "players": [
+                {
+                    "name": "eraa",
+                    "full_name": "Sean Knutsson",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/UU-n5TQseEIVg6Hwv_71R4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C471%2C471&w=200&s=40cd9b266eeb984094abfa0c57747a95",
+                    "url": "https://www.hltv.org/player/16487/eraa"
+                },
+                {
+                    "name": "iM",
+                    "full_name": "Ivan Mihai",
+                    "country_code": "RO",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/WuBHWel7c197lk6pctsKOi.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C471%2C471&w=200&s=9375c41afd979cf472b69afe18754010",
+                    "url": "https://www.hltv.org/player/14759/im"
+                },
+                {
+                    "name": "isak",
+                    "full_name": "Isak Fahlén",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/g4xXmRtGvMgqQn9p7yOyDf.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C467%2C467&w=200&s=569d52f33efd6daea65ccb68673e1cac",
+                    "url": "https://www.hltv.org/player/17937/isak"
+                },
+                {
+                    "name": "RuStY",
+                    "full_name": "Alfred Karlsson",
+                    "country_code": "SE",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/CqAcTyuLTlaqqqRkVCiExS.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C12%2C451%2C451&w=200&s=7cf1f5052cfbb47933f651c7b0774d0f",
+                    "url": "https://www.hltv.org/player/10784/rusty"
+                },
+                {
+                    "name": "Zero",
+                    "full_name": "Patrik Žúdel",
+                    "country_code": "SK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/S7WdJoY_OYDLS-4yTyh_63.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C451%2C451&w=200&s=52adcb031c9cd4b165a160223397bcc5",
+                    "url": "https://www.hltv.org/player/8413/zero"
+                }
+            ],
+            "url": "https://www.hltv.org/team/9928/gamerlegion"
+        },
+        {
+            "rank": 30,
+            "name": "MAD Lions",
+            "points": 28,
+            "change": 1,
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/SIpGY86FWAWr1a12PVOX11.png?ixlib=java-2.1.0&w=50&s=c082a2b2affbfef7e87f88e83439db16",
+            "players": [
+                {
+                    "name": "b0RUP",
+                    "full_name": "Johannes Borup",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/oVF10s_hRNZxcviXz5B2h6.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C451%2C451&w=200&s=894915c1b329f5fee93dc803adf4bb8e",
+                    "url": "https://www.hltv.org/player/9896/b0rup"
+                },
+                {
+                    "name": "jL",
+                    "full_name": "Justinas Lekavicius",
+                    "country_code": "LT",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/nqtjNcr83ZTw9a7CuDcX84.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C8%2C498%2C498&w=200&s=dde16884c1f48cdf8f755adaad20513c",
+                    "url": "https://www.hltv.org/player/19206/jl"
+                },
+                {
+                    "name": "sausol",
+                    "full_name": "Pere Solsona Saumell",
+                    "country_code": "ES",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/6T-hXonRF7Xn5JrtmszUx5.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C455%2C455&w=200&s=8e67708683e3145448642d43de137274",
+                    "url": "https://www.hltv.org/player/18749/sausol"
+                },
+                {
+                    "name": "TMB",
+                    "full_name": "Thomas Bundsbæk",
+                    "country_code": "DK",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/LamErml7QFrNQatopKze3S.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C19%2C471%2C471&w=200&s=ec4c4e177b7f7f259880078dba2df506",
+                    "url": "https://www.hltv.org/player/11995/tmb"
+                },
+                {
+                    "name": "Woro2k",
+                    "full_name": "Volodymyr Veletniuk",
+                    "country_code": "UA",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/fyrB4KJNBkjXrJ2kuDZvVm.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C12%2C478%2C478&w=200&s=8fb52c02ad66e041be9896805d801fcb",
+                    "url": "https://www.hltv.org/player/16885/woro2k"
+                }
+            ],
+            "url": "https://www.hltv.org/team/8362/mad-lions"
+        }
+    ]
+}
