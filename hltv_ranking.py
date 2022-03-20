@@ -85,7 +85,9 @@ class HLTVRanking:
                 "change": _extract_attribute(
                     div,
                     ".ranking-header .change",
-                    parser=lambda val: 0 if val == "-" else int(val),
+                    parser=lambda val: 0
+                    if val in ("-", "NEW TEAM", "NEW CORE")
+                    else int(val),
                 ),
                 "logo_url": _extract_attribute(
                     div, ".team-logo img", getter=lambda tag: str(tag["src"])
@@ -170,6 +172,16 @@ class HLTVRanking:
         with open(path, "w") as f:
             f.write(data)
         return path
+
+    def export_range_to_file(
+        self, template_path: str, start_at: date, end_at: date
+    ) -> None:
+        while start_at <= end_at:
+            try:
+                self.export_to_file(template_path, start_at)
+            except Exception as e:
+                print("Export failed for date: ", start_at, e)
+            start_at += timedelta(days=7)
 
 
 def print_usage():
