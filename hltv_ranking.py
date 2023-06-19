@@ -5,9 +5,10 @@ import sys
 from datetime import date, timedelta
 from typing import Callable, TypedDict, TypeVar
 
-import requests
 from bs4 import BeautifulSoup, Tag
 from dateutil.parser import parse
+from selenium import webdriver
+from selenium.webdriver.chrome.options import ChromiumOptions
 
 VERSION = "1.0"
 RANKING_URL = "https://www.hltv.org/ranking/teams/"
@@ -42,6 +43,10 @@ class Player(TypedDict):
 T = TypeVar("T")
 
 
+browser_options = ChromiumOptions()
+browser_options.add_argument("--headless=new")
+
+
 def _extract_attribute(
     team_div: Tag,
     selector: str,
@@ -67,9 +72,11 @@ class HLTVRanking:
 
     def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
         ranking_url = self._get_ranking_url(ranking_at)
-        response = requests.get(ranking_url)
-        assert response.status_code == 200, ranking_url
-        return BeautifulSoup(response.text, features="html.parser")
+        browser = webdriver.Chrome(options=browser_options)
+        browser.get(ranking_url)
+        html_content = browser.page_source
+        browser.quit()
+        return BeautifulSoup(html_content, features="html.parser")
 
     def _get_teams(self, html_content: BeautifulSoup) -> list[Team]:
         teams: list[Team] = []
