@@ -7,8 +7,8 @@ from typing import Callable, TypedDict, TypeVar
 
 from bs4 import BeautifulSoup, Tag
 from dateutil.parser import parse
-from selenium import webdriver
-from selenium.webdriver.chrome.options import ChromiumOptions
+from seleniumbase import Driver, page_actions
+
 
 VERSION = "1.0"
 RANKING_URL = "https://www.hltv.org/ranking/teams/"
@@ -43,10 +43,6 @@ class Player(TypedDict):
 T = TypeVar("T")
 
 
-browser_options = ChromiumOptions()
-browser_options.add_argument("--headless=new")
-
-
 def _extract_attribute(
     team_div: Tag,
     selector: str,
@@ -72,8 +68,9 @@ class HLTVRanking:
 
     def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
         ranking_url = self._get_ranking_url(ranking_at)
-        browser = webdriver.Chrome(options=browser_options)
+        browser = Driver(uc=True)
         browser.get(ranking_url)
+        page_actions.wait_for_element(browser, ".ranking")
         html_content = browser.page_source
         browser.quit()
         return BeautifulSoup(html_content, features="html.parser")
