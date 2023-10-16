@@ -141,7 +141,7 @@ class HLTVRanking:
 
     def _get_ranking_date(self, html_content: BeautifulSoup) -> date:
         date_text = html_content.select_one(".regional-ranking-header").text.strip()
-        prefix = "CS:GO World ranking on "
+        prefix = "Counter-Strike World ranking on "
         date_text = date_text[len(prefix) :]
         return parse(date_text).date()
 
