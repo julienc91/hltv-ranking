@@ -5,10 +5,9 @@ import sys
 from datetime import date, timedelta
 from typing import Callable, TypedDict, TypeVar
 
+import cloudscraper
 from bs4 import BeautifulSoup, Tag
 from dateutil.parser import parse
-from seleniumbase import Driver, page_actions
-
 
 VERSION = "1.0"
 RANKING_URL = "https://www.hltv.org/ranking/teams/"
@@ -68,11 +67,8 @@ class HLTVRanking:
 
     def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
         ranking_url = self._get_ranking_url(ranking_at)
-        browser = Driver(uc=True)
-        browser.get(ranking_url)
-        page_actions.wait_for_element(browser, ".ranking")
-        html_content = browser.page_source
-        browser.quit()
+        scraper = cloudscraper.create_scraper()
+        html_content = scraper.get(ranking_url).text
         return BeautifulSoup(html_content, features="html.parser")
 
     def _get_teams(self, html_content: BeautifulSoup) -> list[Team]:
