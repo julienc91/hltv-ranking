@@ -2,8 +2,9 @@ import json
 import locale
 import re
 import sys
+from collections.abc import Callable, TypedDict
 from datetime import date, timedelta
-from typing import Callable, TypedDict, TypeVar
+from typing import TypeVar
 
 import cloudscraper
 from bs4 import BeautifulSoup, Tag
