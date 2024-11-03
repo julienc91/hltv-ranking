@@ -2,9 +2,9 @@ import json
 import locale
 import re
 import sys
-from collections.abc import Callable, TypedDict
+from collections.abc import Callable
 from datetime import date, timedelta
-from typing import TypeVar
+from typing import TypedDict, TypeVar
 
 import cloudscraper
 from bs4 import BeautifulSoup, Tag
@@ -86,9 +86,9 @@ class HLTVRanking:
                 "change": _extract_attribute(
                     div,
                     ".ranking-header .change",
-                    parser=lambda val: 0
-                    if val in ("-", "NEW TEAM", "NEW CORE")
-                    else int(val),
+                    parser=lambda val: (
+                        0 if val in ("-", "NEW TEAM", "NEW CORE") else int(val)
+                    ),
                 ),
                 "logo_url": _extract_attribute(
                     div, ".team-logo img", getter=lambda tag: str(tag["src"])
