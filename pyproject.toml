@@ -1,0 +1,21 @@
+[project]
+name = "hltv-ranking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "cloudscraper",
+    "python-dateutil>=2.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "ruff>=0.14.14",
+    "ty>=0.0.14",
+]
+
+[tool.uv.sources]
+cloudscraper = { git = "https://github.com/VeNoMouS/cloudscraper.git", rev = "3.0.0" }

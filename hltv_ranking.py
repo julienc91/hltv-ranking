@@ -58,6 +58,8 @@ def _extract_attribute(
     parser: Callable[[str], T] = lambda val: val,
 ) -> T:
     container = team_div.select_one(selector)
+    if container is None:
+        raise ValueError(f"Cannot find selector: {selector}")
     value = getter(container)
     return parser(value)
 
@@ -158,7 +160,11 @@ class HLTVRanking:
         return players
 
     def _get_ranking_date(self, html_content: BeautifulSoup) -> date:
-        date_text = html_content.select_one(".regional-ranking-header").text.strip()
+        date_container = html_content.select_one(".regional-ranking-header")
+        if not date_container:
+            raise ValueError("Date cannot be found in HTML content")
+
+        date_text = date_container.text.strip()
         prefix = "Counter-Strike World ranking on "
         date_text = date_text[len(prefix) :]
         return parse(date_text).date()

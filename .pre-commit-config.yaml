@@ -10,6 +10,14 @@ repos:
     -   id: ruff-check
         args: [ --fix, --extend-select=I ]
     -   id: ruff-format
+- repo: local
+  hooks:
+    -   id: ty
+        name: ty check
+        entry: uv run ty check .
+        language: python
+        pass_filenames: false
+        always_run: true
 - repo: https://github.com/gitguardian/ggshield
   rev: v1.46.0
   hooks:
