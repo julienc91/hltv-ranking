@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.14.2"
       - name: Install uv
@@ -40,7 +40,7 @@ jobs:
           cp ${{ env.RANKING_DATE }}.json latest.json
           mv ${{ env.RANKING_DATE }}.json ${{ env.YEAR }}/
       - name: Add output to rankings branch
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: HLTV World Ranking ${{ env.RANKING_DATE }}
           branch: rankings
