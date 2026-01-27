@@ -68,7 +68,20 @@ class HLTVRanking:
 
     def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
         ranking_url = self._get_ranking_url(ranking_at)
-        scraper = cloudscraper.create_scraper()
+        scraper = cloudscraper.create_scraper(
+            interpreter="js2py",
+            delay=5,
+            enable_stealth=True,
+            stealth_options={
+                "min_delay": 2.0,
+                "max_delay": 6.0,
+                "human_like_delays": True,
+                "randomize_headers": True,
+                "browser_quirks": True,
+            },
+            browser="chrome",
+        )
+
         html_content = scraper.get(ranking_url).text
         return BeautifulSoup(html_content, features="html.parser")
 
