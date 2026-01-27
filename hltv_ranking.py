@@ -1,3 +1,11 @@
+# /// script
+# dependencies = [
+#   "beautifulsoup4 >= 4.14.3",
+#   "python-dateutil >= 2.9.0",
+#   "cloudscraper @ git+https://github.com/VeNoMouS/cloudscraper.git@3.0.0",
+# ]
+# ///
+
 import json
 import locale
 import re

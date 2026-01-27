@@ -16,8 +16,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
       - name: Change branch
         run: |
           git fetch
@@ -27,7 +27,7 @@ jobs:
           git restore --staged hltv_ranking.py
       - name: Execute script
         run: |
-          OUTPUT_FILE=$(python hltv_ranking.py '{{ranking_date}}.json')
+          OUTPUT_FILE=$(uv run hltv_ranking.py '{{ranking_date}}.json')
           echo "RANKING_DATE=$(basename ${OUTPUT_FILE} .json)" >> $GITHUB_ENV
           echo "YEAR=$(basename ${OUTPUT_FILE} .json | cut -c1-4)" >> $GITHUB_ENV
       - name: Create latest.json
