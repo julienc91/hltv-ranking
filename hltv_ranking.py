@@ -1,11 +1,3 @@
-# /// script
-# dependencies = [
-#   "beautifulsoup4 >= 4.14.3",
-#   "python-dateutil >= 2.9.0",
-#   "cloudscraper @ git+https://github.com/VeNoMouS/cloudscraper.git@3.0.0",
-# ]
-# ///
-
 import json
 import locale
 import re
@@ -79,7 +71,7 @@ class HLTVRanking:
     def _get_ranking_html_content(self, ranking_at: date | None) -> BeautifulSoup:
         ranking_url = self._get_ranking_url(ranking_at)
         scraper = cloudscraper.create_scraper(
-            interpreter="js2py",
+            interpreter="nodejs",
             delay=5,
             enable_stealth=True,
             stealth_options={
