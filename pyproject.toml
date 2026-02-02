@@ -3,11 +3,11 @@ name = "hltv-ranking"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.14.2"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "cloudscraper",
-    "python-dateutil>=2.9.0",
+    "python-dateutil>=2.9.0.post0",
 ]
 
 [dependency-groups]
@@ -18,4 +18,4 @@ dev = [
 ]
 
 [tool.uv.sources]
-cloudscraper = { git = "https://github.com/VeNoMouS/cloudscraper.git", rev = "3.0.0" }
+cloudscraper = { git = "https://github.com/VeNoMouS/cloudscraper.git", rev = "9ea528a8675f1bebd49ff853d142e94988a95178" }
