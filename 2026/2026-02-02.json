@@ -2155,7 +2155,7 @@
             "name": "illwill",
             "points": 29,
             "change": 15,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=i",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/WICkIpeOyXweG2ozrui4bi.png?ixlib=java-2.1.0&w=50&s=40225e1fa3ab0f963851649b37009042",
             "players": [
                 {
                     "name": "7kick",
@@ -5954,7 +5954,7 @@
                     "name": "BRK",
                     "full_name": "Horomei Răzvan",
                     "country_code": "RO",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/DunQyWTJs0LBeF8P_DtGN8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C467%2C467&w=200&s=95b4460333c7edaceea5dd6db8c41031",
                     "url": "https://www.hltv.org/player/24692/brk"
                 },
                 {
@@ -6463,7 +6463,7 @@
                     "name": "Valter0k",
                     "full_name": "Vladyslav Pukhtai",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/UIXniEpS0_iFbsis8RwvRo.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=77cd568f277f1a899c8ea51cdf7992bc",
                     "url": "https://www.hltv.org/player/24669/valter0k"
                 }
             ],
@@ -8068,7 +8068,7 @@
                     "name": "bsover",
                     "full_name": "Oliwer Ekbäck",
                     "country_code": "SE",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/rONVd8Hsl01TN3puLX8lAb.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=200&s=6fcde39858da0fa8f4984c4fd286d319",
                     "url": "https://www.hltv.org/player/22380/bsover"
                 },
                 {
@@ -8089,14 +8089,14 @@
                     "name": "Sn0w",
                     "full_name": "Timmy Brun",
                     "country_code": "SE",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/griNEBzYJKBCywuStjlGeR.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=1b8525ecaa5da835d036d67a04eae388",
                     "url": "https://www.hltv.org/player/24584/sn0w"
                 },
                 {
                     "name": "walleN",
                     "full_name": "William Wallin",
                     "country_code": "SE",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/RCaX27esY9L9mg-fOQbVR7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C467%2C467&w=200&s=d1403e049eab21c94d7bbb64585bc10d",
                     "url": "https://www.hltv.org/player/24518/wallen"
                 }
             ],
