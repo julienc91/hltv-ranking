@@ -10485,41 +10485,41 @@
             "name": "CTRL",
             "points": 1,
             "change": 0,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=C",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/DAEPwFYckiXCKhfjHOG2QO.png?ixlib=java-2.1.0&w=50&s=16747c2eae621aecbf945ea2a5756608",
             "players": [
                 {
                     "name": "AliBond",
                     "full_name": "Alastair Bond",
                     "country_code": "GB",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/T-gMC110sSv794lApTV7fy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=87e2101520487b527a5fb0edda5a221f",
                     "url": "https://www.hltv.org/player/25192/alibond"
                 },
                 {
                     "name": "godkU",
                     "full_name": "Joseph Fowkes",
                     "country_code": "GB",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/0LaNN45jSwVVfVOxIYMtik.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=e345e65e4230548cb9399369e1304379",
                     "url": "https://www.hltv.org/player/23453/godku"
                 },
                 {
                     "name": "M1n1maL",
                     "full_name": "Liam Reynolds",
                     "country_code": "GB",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Z1TOEknsQ6A5iqJE52jpGt.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=245b1b514b7cc0a8af798d62ce150c1b",
                     "url": "https://www.hltv.org/player/25923/m1n1mal"
                 },
                 {
                     "name": "MrObvious",
                     "full_name": "Jakub Długoń",
                     "country_code": "PL",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/tnV-54WVv71pNtms3bPKUF.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=d89928227068d75242b1d22c8792334c",
                     "url": "https://www.hltv.org/player/20664/mrobvious"
                 },
                 {
                     "name": "Rhyza",
                     "full_name": "Riley Hope",
                     "country_code": "GB",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/p5gV8bw8JJ9QPCSneBXi6Q.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=9d31e7f7d4d979857912c80bd3566cd9",
                     "url": "https://www.hltv.org/player/25190/rhyza"
                 }
             ],
