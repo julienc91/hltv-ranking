@@ -14,7 +14,7 @@ dependencies = [
 dev = [
     "pre-commit>=4.5.1",
     "ruff>=0.15.5",
-    "ty>=0.0.21",
+    "ty>=0.0.22",
 ]
 
 [tool.uv.sources]
