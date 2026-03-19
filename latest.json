@@ -7494,7 +7494,7 @@
             "name": "BMZ",
             "points": 4,
             "change": -12,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=B",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/N_b1KJ9xbJH0DCAaGWsgqD.png?ixlib=java-2.1.0&w=50&s=1144f8d3a7db1e039caabdf597e8ce93",
             "players": [
                 {
                     "name": "fury5k",
@@ -7545,7 +7545,7 @@
                     "name": "fakerealityy",
                     "full_name": "Danylo Rud",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/yJ98jAXEcC-7Pi25lZ9YY4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C467%2C467&w=200&s=7c38bd5f0854e638f47f05b499128de3",
                     "url": "https://www.hltv.org/player/24672/fakerealityy"
                 },
                 {
@@ -9086,7 +9086,7 @@
             "name": "5star",
             "points": 3,
             "change": 25,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=5",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/DxfB_DH6Hhb1l1okhNQxxu.png?ixlib=java-2.1.0&w=50&s=4b5d0620de51193343d84d5247bc3fa5",
             "players": [
                 {
                     "name": "ariucle",
@@ -9771,7 +9771,7 @@
             "name": "Skele",
             "points": 2,
             "change": -1,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=S",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/I_btLKX1OoO4OAbWErdX_B.png?ixlib=java-2.1.0&w=50&s=fbe3e5b2e2f482b294d05fad0224f4b2",
             "players": [
                 {
                     "name": "motion",
@@ -10006,7 +10006,7 @@
                     "url": "https://www.hltv.org/player/19301/dave"
                 },
                 {
-                    "name": "Louie",
+                    "name": "louie",
                     "full_name": "Nolan Herges",
                     "country_code": "US",
                     "picture_url": "/img/static/player/blankplayer.svg",
@@ -10552,7 +10552,7 @@
                     "name": "blamz",
                     "full_name": "Jakob Juhlin Ninn",
                     "country_code": "DK",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/5C2wxWn2fF5Dm0T7adj3YQ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=228651d3ab08b951cc5681faca6bb1f1",
                     "url": "https://www.hltv.org/player/25979/blamz"
                 },
                 {
