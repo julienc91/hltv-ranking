@@ -2802,11 +2802,11 @@
                     "url": "https://www.hltv.org/player/20451/abizz"
                 },
                 {
-                    "name": "FraGuTy",
+                    "name": "guty",
                     "full_name": "Lautaro Gomez",
                     "country_code": "AR",
                     "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ZonW-1eWiBPxEP4hJ7WmKO.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=18dea904c3441b0a52146482a9a14bbe",
-                    "url": "https://www.hltv.org/player/24749/fraguty"
+                    "url": "https://www.hltv.org/player/24749/guty"
                 },
                 {
                     "name": "ivz",
@@ -6415,7 +6415,7 @@
             "name": "EMPIRE",
             "points": 5,
             "change": 6,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=E",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/sfoAswoJQ1ZYrdrHn8L7pk.png?ixlib=java-2.1.0&w=50&s=0f5d5e21be7b7413bcee65a5d6622ab4",
             "players": [
                 {
                     "name": "BAGEL",
@@ -7771,7 +7771,7 @@
             "name": "DONSTU",
             "points": 4,
             "change": -20,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=D",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/9ueb9xIjZJND19aXJ-02H-.png?ixlib=java-2.1.0&w=50&s=aafb584d0a8eee097f9129fe1b7602db",
             "players": [
                 {
                     "name": "Due1yant",
@@ -8105,7 +8105,7 @@
                 {
                     "name": "MadeInRed",
                     "full_name": "Erikas Musnikas",
-                    "country_code": "NO",
+                    "country_code": "LT",
                     "picture_url": "https://img-cdn.hltv.org/playerbodyshot/lISqiWHViEMhoG4qStkk1r.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=f6cde2a308146513a42837f2577c7ecf",
                     "url": "https://www.hltv.org/player/24067/madeinred"
                 },
@@ -8670,14 +8670,14 @@
                     "name": "Lacerda",
                     "full_name": "Cauã Alitolip",
                     "country_code": "BR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/TawO91qbnUDTXn8S4ClWyb.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=76082897bb53246eef65f4263d12b3f0",
                     "url": "https://www.hltv.org/player/25035/lacerda"
                 },
                 {
                     "name": "Machado",
                     "full_name": "Henrique Amaral",
                     "country_code": "BR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/nmFzPkxyHmezrShDRRO_b7.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C0%2C467%2C467&w=200&s=dbe517fdce6e9225fbd3f16874aa5f7e",
                     "url": "https://www.hltv.org/player/23829/machado"
                 },
                 {
@@ -9985,14 +9985,14 @@
                     "name": "zemix",
                     "full_name": "Semih Baykara",
                     "country_code": "TR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/a4d__uUWPNGlF0wNolPNfX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C455%2C455&w=200&s=09701bf196cece3643546f94ce8649e1",
                     "url": "https://www.hltv.org/player/25540/zemix"
                 },
                 {
                     "name": "zer0UKY",
                     "full_name": "Ubeyde Yalçın",
                     "country_code": "TR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/2GnJrvgRSpmDfH6C2HJdV_.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=7c0e0203787fd2567db4ec116f3a8f22",
                     "url": "https://www.hltv.org/player/25109/zer0uky"
                 }
             ],
@@ -10127,7 +10127,7 @@
                     "name": "ta9z",
                     "full_name": "Maksym Hrytsai",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/BxGnbp5AtExHYLYkRAt2Qn.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=d1613c1639287aa5d90685548edfae78",
                     "url": "https://www.hltv.org/player/25955/ta9z"
                 }
             ],
@@ -10694,35 +10694,35 @@
                     "name": "DAN9ARMATURA",
                     "full_name": "Daniil Glotov",
                     "country_code": "RU",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/sCoEU2e9derxJU-xMQAywF.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=dfdd341bed7e760e47460724e0dfeddb",
                     "url": "https://www.hltv.org/player/26073/dan9armatura"
                 },
                 {
                     "name": "desl3bio",
                     "full_name": "Artur Gorbunov",
                     "country_code": "RU",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Vg1foSGwn9tbwIPbxTCWM5.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=76ffd4b437ddcde444ce179a088a559a",
                     "url": "https://www.hltv.org/player/24920/desl3bio"
                 },
                 {
                     "name": "pleynnn",
                     "full_name": "Artur Syzdykov",
                     "country_code": "RU",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Sm7kH-j19PAZykChRV2qB8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=9d4a91b674301ebd18f0d4d236ade269",
                     "url": "https://www.hltv.org/player/25710/pleynnn"
                 },
                 {
                     "name": "SquEzxc",
                     "full_name": "Maxim Grebenko",
                     "country_code": "BY",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/opyUAwXhmfENXtAji3kd9a.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=3b11e19003e22cb1c07f941208b5d49b",
                     "url": "https://www.hltv.org/player/24924/squezxc"
                 },
                 {
                     "name": "tw1sterzaza",
                     "full_name": "Aliaksei Mukhin",
                     "country_code": "BY",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/052D73vX-lY9rizypGuDEZ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=d7ac607d7e6ae8f91cba158722279590",
                     "url": "https://www.hltv.org/player/25712/tw1sterzaza"
                 }
             ],
