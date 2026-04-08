@@ -7037,7 +7037,7 @@
                     "name": "N1ghtraid",
                     "full_name": "Aron Dang",
                     "country_code": "VN",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/SnoEjP5ZgqidtUCf5QgMak.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=128%2C4%2C467%2C467&w=200&s=4d367e5e9c99162b3c3bf9498cf8ac02",
                     "url": "https://www.hltv.org/player/20320/n1ghtraid"
                 }
             ],
@@ -10432,7 +10432,7 @@
         },
         {
             "rank": 240,
-            "name": "Clutchain",
+            "name": "Clutchain fe",
             "points": 2,
             "change": 4,
             "logo_url": "/dynamic-svg/teamplaceholder?letter=C",
@@ -10473,7 +10473,7 @@
                     "url": "https://www.hltv.org/player/1646/zaaz"
                 }
             ],
-            "url": "https://www.hltv.org/team/13788/clutchain"
+            "url": "https://www.hltv.org/team/13788/clutchain-fe"
         },
         {
             "rank": 241,
