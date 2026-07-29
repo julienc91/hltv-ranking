@@ -19,7 +19,7 @@ class Ranking(TypedDict):
     date: str
     source: str
     type: str
-    teams: list["Team"]
+    teams: list[Team]
 
 
 class Team(TypedDict):
@@ -28,7 +28,7 @@ class Team(TypedDict):
     logo_url: str
     points: int
     change: int
-    players: list["Player"]
+    players: list[Player]
     url: str
 
 
@@ -43,7 +43,7 @@ class Player(TypedDict):
 T = TypeVar("T")
 
 
-def _extract_attribute(
+def _extract_attribute[T](
     team_div: Tag,
     selector: str,
     getter: Callable[[Tag], str] = lambda tag: str(tag.text),
@@ -129,7 +129,7 @@ class HLTVRanking:
                     div,
                     ".playerPicture",
                     getter=lambda tag: str(tag["alt"]),
-                    parser=lambda val: val.replace(f" '{name}' ", " "),
+                    parser=lambda val, name=name: val.replace(f" '{name}' ", " "),
                 ),
                 "country_code": _extract_attribute(
                     div,
@@ -199,7 +199,7 @@ class HLTVRanking:
         while start_at <= end_at:
             try:
                 self.export_to_file(template_path, start_at)
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001
                 print("Export failed for date: ", start_at, e)
             start_at += timedelta(days=7)
 
