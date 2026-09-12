@@ -6,18 +6,22 @@ on:
   schedule:
     - cron: '0 20 * * MON'
 
+permissions: {}
+
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to push the generated ranking to the rankings branch
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v7
+      - name: Checkout code # zizmor: ignore[artipacked]
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
         with:
           python-version: "3.14.4"
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@94527f2e458b27549849d47d273a16bec83a01e9 # v7
       - name: Install dependencies
         run: |
           uv sync
@@ -36,11 +40,11 @@ jobs:
       - name: Create latest.json
         run: |
           rm latest.json
-          mkdir -p ${{ env.YEAR }}
-          cp ${{ env.RANKING_DATE }}.json latest.json
-          mv ${{ env.RANKING_DATE }}.json ${{ env.YEAR }}/
+          mkdir -p "$YEAR"
+          cp "$RANKING_DATE.json" latest.json
+          mv "$RANKING_DATE.json" "$YEAR/"
       - name: Add output to rankings branch
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
         with:
           commit_message: HLTV World Ranking ${{ env.RANKING_DATE }}
           branch: rankings

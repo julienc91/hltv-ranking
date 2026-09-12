@@ -2,24 +2,26 @@ repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
+    -   id: check-toml
+    -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
-- repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.16.5
-  hooks:
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.5
+    hooks:
     -   id: ruff-check
-        args: [ --fix, --extend-select=I ]
+        args: [--fix, --extend-select=I]
     -   id: ruff-format
-- repo: local
-  hooks:
+-   repo: https://github.com/astral-sh/ty-pre-commit
+    rev: v0.0.75
+    hooks:
     -   id: ty
-        name: ty check
-        entry: uv run ty check .
-        language: python
-        pass_filenames: false
-        always_run: true
-- repo: https://github.com/gitguardian/ggshield
-  rev: v1.54.0
-  hooks:
+-   repo: https://github.com/gitguardian/ggshield
+    rev: v1.54.0
+    hooks:
     -   id: ggshield
         language_version: python3
+-   repo: https://github.com/zizmorcore/zizmor-pre-commit
+    rev: v1.30.0
+    hooks:
+    -   id: zizmor
