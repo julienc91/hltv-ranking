@@ -3248,7 +3248,7 @@
                     "name": "cacan",
                     "full_name": "Mert Cacan",
                     "country_code": "TR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Xq-SscFKuSe2oKxDNemEgi.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=763f3b804502e653326851ebafc36f9e",
                     "url": "https://www.hltv.org/player/25007/cacan"
                 },
                 {
@@ -3262,7 +3262,7 @@
                     "name": "Darendeli",
                     "full_name": "Ahmet Şengül",
                     "country_code": "TR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/y2mD89Pxz4dNNW-VrrCVuH.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=d6d41ea333a8520d8d2f10a4cfeb8dfa",
                     "url": "https://www.hltv.org/player/21253/darendeli"
                 },
                 {
@@ -3276,7 +3276,7 @@
                     "name": "Vej",
                     "full_name": "Orhan Yunus Hamarat",
                     "country_code": "TR",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/rInzwLj8g5Xm2Kbf7Ozfse.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=5ad2614ad0807dd14215caffcf4a516a",
                     "url": "https://www.hltv.org/player/24842/vej"
                 }
             ],
@@ -7046,7 +7046,7 @@
                 {
                     "name": "wonimo",
                     "full_name": "Yaroslav Tsyprinskiy",
-                    "country_code": "RU",
+                    "country_code": "PL",
                     "picture_url": "https://img-cdn.hltv.org/playerbodyshot/yJ6pzm4utceVSpsQRDB2sV.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=8fe65ccbb3ea8f7394a730ea786230f1",
                     "url": "https://www.hltv.org/player/23768/wonimo"
                 },
