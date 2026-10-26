@@ -18,9 +18,9 @@ dev = [
 ]
 
 [tool.uv]
-# Keep transitive dependencies at least as old as Dependabot's cooldown, which
-# only covers the direct dependency it bumps.
-exclude-newer = "7 days"
+# js2py has an unfixed RCE (CVE-2024-28397). cloudscraper only imports it when
+# the js2py interpreter is selected, and we use nodejs, so drop it entirely.
+exclude-dependencies = ["js2py"]
 
 [tool.uv.sources]
 cloudscraper = { git = "https://github.com/VeNoMouS/cloudscraper.git", rev = "9ea528a8675f1bebd49ff853d142e94988a95178" }
