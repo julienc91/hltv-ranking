@@ -4030,7 +4030,7 @@
                     "name": "fl1peR",
                     "full_name": "Daniil Salamakha",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/Atrj_QdO1l9MbfkwqpONu0.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=9226339ad1a3947e563939bb2bf22ada",
                     "url": "https://www.hltv.org/player/19946/fl1per"
                 },
                 {
@@ -4044,7 +4044,7 @@
                     "name": "NxStep",
                     "full_name": "Darii Stepovyi",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/97yxBcLwxHv6PapATzcUt9.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=200&s=2ddfbe01d280409a826da8136e3ddf39",
                     "url": "https://www.hltv.org/player/26422/nxstep"
                 },
                 {
@@ -4058,7 +4058,7 @@
                     "name": "tired73",
                     "full_name": "Andrii Hlushko",
                     "country_code": "UA",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/_9YrMqwXLBsjDiDF6ak7dg.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=7fbe86f6d8c2e826b3980c43f90c28c4",
                     "url": "https://www.hltv.org/player/25902/tired73"
                 }
             ],
@@ -6449,7 +6449,7 @@
             "name": "Lunacy",
             "points": 4,
             "change": 0,
-            "logo_url": "/dynamic-svg/teamplaceholder?letter=L",
+            "logo_url": "https://img-cdn.hltv.org/teamlogo/fyMp_Z4JuU5p-fZUVPnKwx.png?ixlib=java-2.1.0&w=50&s=a553fde4cdaacb68c6d47bfb2c145e6c",
             "players": [
                 {
                     "name": "1NVISIBLEE",
@@ -6469,7 +6469,7 @@
                     "name": "saizius",
                     "full_name": "Andrey Sychev",
                     "country_code": "RU",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/G_eafcFFhOh1fgfoN5jmIt.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=efafd425e51be22b9215ee1c8c37969e",
                     "url": "https://www.hltv.org/player/26540/saizius"
                 },
                 {
@@ -7346,7 +7346,7 @@
                 },
                 {
                     "name": "Nikodeon",
-                    "full_name": "Nikolai  Sørensen",
+                    "full_name": "Nikolai Aabling Sørensen",
                     "country_code": "DK",
                     "picture_url": "https://img-cdn.hltv.org/playerbodyshot/iaJ5zwgQz9KDs6e1ozcTz4.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C12%2C467%2C467&w=200&s=7d5a6c6f832b2212d2624d1595b8d78a",
                     "url": "https://www.hltv.org/player/25255/nikodeon"
@@ -7545,7 +7545,7 @@
                     "name": "phorate",
                     "full_name": "Daniil Varzov",
                     "country_code": "RU",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/SnrMVmOkC3cMt8awUpF3vF.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=116%2C8%2C467%2C467&w=200&s=23d3cd6b1070720087c3803879ac1d0b",
                     "url": "https://www.hltv.org/player/26413/phorate"
                 },
                 {
@@ -8627,7 +8627,7 @@
                 {
                     "name": "nico1ajus",
                     "full_name": "Eduard Kuchynskyi",
-                    "country_code": "UA",
+                    "country_code": "CA",
                     "picture_url": "/img/static/player/blankplayer.svg",
                     "url": "https://www.hltv.org/player/24191/nico1ajus"
                 },
@@ -9956,7 +9956,7 @@
                     "name": "aZe",
                     "full_name": "Asim Khodzhaev",
                     "country_code": "TM",
-                    "picture_url": "/img/static/player/blankplayer.svg",
+                    "picture_url": "https://img-cdn.hltv.org/playerbodyshot/ySDCHuwkX85h5Stj_exXJ8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=e29b5272d7d48c7a9bcb04cffb82859d",
                     "url": "https://www.hltv.org/player/25119/aze"
                 },
                 {
